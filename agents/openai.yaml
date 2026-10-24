@@ -1,0 +1,6 @@
+interface:
+  display_name: "PaperCompass"
+  short_description: "先识别论文重点，再细读证据、共同推理，并逐步积累个人阅读习惯"
+  default_prompt: "请用 $paper-compass 陪我读这篇论文，先识别重点和整体逻辑，再围绕一个核心问题逐步讲解，每阶段结束后暂停。"
+policy:
+  allow_implicit_invocation: true
